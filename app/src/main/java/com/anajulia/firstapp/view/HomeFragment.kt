@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.anajulia.firstapp.R
-import com.anajulia.firstapp.databinding.FragmentCalculoBinding
 import com.anajulia.firstapp.databinding.FragmentHomeBinding
 
 
@@ -26,8 +25,8 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.btnCalculo.setOnClickListener {
-            findNavController().navigate(R.id.calculoFragment)
+        binding.btnCadastroPessoa.setOnClickListener {
+            findNavController().navigate(R.id.allPessoasFragment)
         }
 
         binding.btnVerifica.setOnClickListener {

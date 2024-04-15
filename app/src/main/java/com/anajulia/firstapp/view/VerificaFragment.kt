@@ -5,8 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.anajulia.firstapp.R
-import com.anajulia.firstapp.databinding.FragmentCalculoBinding
 import com.anajulia.firstapp.databinding.FragmentVerificaBinding
 
 class VerificaFragment : Fragment() {

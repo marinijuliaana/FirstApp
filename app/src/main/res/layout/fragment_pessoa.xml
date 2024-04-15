@@ -6,35 +6,30 @@
     tools:context=".view.PessoaFragment"
     android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/tvNome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nome"
-        android:textSize="24sp" />
-
-
-    <TextView
-        android:id="@+id/tvIdade"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Idade"
-        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/edtNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu nome"/>
+        android:hint="Digite seu nome"
+        android:layout_margin="10dp"/>
 
     <EditText
         android:id="@+id/edtAnoNascimento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Digite seu ano de nascimento"
         android:inputType="number"
         android:maxLength="4"
-        android:hint="Digite seu ano de nascimento"/>
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu sexo"
+        android:inputType="text"
+        android:layout_margin="10dp"/>
 
     <Button
         android:id="@+id/btnEnviar"
